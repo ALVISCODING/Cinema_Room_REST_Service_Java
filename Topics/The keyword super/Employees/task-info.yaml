@@ -1,0 +1,62 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Employee {
+
+        // write fields
+
+        // write constructor
+
+        // write getters
+    }
+
+    class Developer extends Employee {
+
+        // write fields
+
+        // write constructor
+
+        // write getters
+    }
+
+    class DataAnalyst extends Employee {
+
+        // write fields
+
+        // write constructor
+
+        // write getters
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2206#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:6: error: incompatible types: String[] cannot be converted to String
+            final Employee developer = new Developer("Mary", "mary@mail.com", 3, "Java", skills);
+                                                                                         ^
+    Main.java:9: error: incompatible types: String[] cannot be converted to String
+            final Employee analyst = new DataAnalyst("John", "john@gmail.com", 2, true, methods);
+                                                                                        ^
+    Main.java:23: error: for-each not applicable to expression type
+                    for (String skill : developer.getSkills()) {
+                                                           ^
+      required: array or java.lang.Iterable
+      found:    String
+    Main.java:28: error: cannot find symbol
+                    System.out.println(analyst.isPhd() ? "YES" : "NO");
+                                              ^
+      symbol:   method isPhd()
+      location: variable analyst of type DataAnalyst
+    Main.java:29: error: for-each not applicable to expression type
+                    for (String method : analyst.getMethods()) {
+                                                           ^
+      required: array or java.lang.Iterable
+      found:    String
+    Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+    5 errors
+  time: Sat, 01 Apr 2023 16:46:00 UTC
+record: -1
