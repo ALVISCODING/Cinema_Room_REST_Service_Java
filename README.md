@@ -57,7 +57,7 @@ Start the system
 
 ## Local Host
 
-Plase configure your local host setting 
+Please configure your local host setting 
 
 ```bash
  server.port=28852
