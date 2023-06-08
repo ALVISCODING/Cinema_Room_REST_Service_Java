@@ -39,7 +39,7 @@ There are several ways to run a Spring Boot application on your local machine. O
 
 My src file is on  Cinema Room REST Service (Java)/task/src/cinema
 
-Start the server
+Start the system
 
 ```bash
   gradle bootRun
