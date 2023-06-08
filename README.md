@@ -130,7 +130,7 @@ Backend reply:
 ```
 
 ```
-If client post a request exceed the max set layout 
+If client post a request exceed the max seating layout 
 
 Backend reply:
 
